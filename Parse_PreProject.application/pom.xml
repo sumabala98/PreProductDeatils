@@ -42,7 +42,7 @@
     <truststorePath></truststorePath>
     <keystorePath></keystorePath>
     <domain>Parse_PreProject-Domain</domain>
-    <agentPort>8056</agentPort>
+    <agentPort>8079</agentPort>
     <tibco.Home>C:\Tibco_BW_6.8\TibcoBW_6.8</tibco.Home>
   </properties>
   <build>
