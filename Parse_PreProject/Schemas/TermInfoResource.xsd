@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://tns.tibco.com/bw/json/1676955759427" elementFormDefault="qualified" targetNamespace="http://tns.tibco.com/bw/json/1676955759427">
+  <complexType name="TermInfoElementType">
+    <sequence>
+      <element maxOccurs="unbounded" minOccurs="0" name="termInfo">
+        <complexType>
+          <sequence>
+            <element maxOccurs="1" minOccurs="0" name="lineId" type="string"/>
+            <element maxOccurs="1" minOccurs="0" name="partnerIntent" type="string"/>
+            <element maxOccurs="1" minOccurs="0" name="sellerIntent" type="string"/>
+            <element maxOccurs="1" minOccurs="0" name="extNetPrice" type="integer"/>
+            <element maxOccurs="1" minOccurs="0" name="term" type="integer"/>
+          </sequence>
+        </complexType>
+      </element>
+    </sequence>
+  </complexType>
+  <element name="TermInfoElement" type="tns:TermInfoElementType"/>
+</schema>
